@@ -29,7 +29,7 @@ const Hero = () => {
     <div className="w-full bg-[#ffefdd] bg-[url('./assets/bubbles.svg')] bg-repeat">
       {/* Origins of Chocolate */}
       <section className="h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20">
-        <Section animationClass="opacity-100 translate-y-0">
+        <Section animationClass="fade-in">
           <div className="w-full md:w-1/2 text-left">
             <h2 className="text-4xl font-bold text-[#4E342E] mb-4">
               The Origins of Chocolate
