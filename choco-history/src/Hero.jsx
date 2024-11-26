@@ -27,7 +27,7 @@ const Hero = () => {
   return (
     <div className="w-full bg-[#d38021] bg-[url('./assets/bubbles.svg')] bg-repeat">
       {/* Section 1: Origins of Chocolate */}
-      <section className="h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20">
+      <section className="h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 ">
         <div className="w-full md:w-1/2 text-left">
           <h2 className="text-4xl font-bold text-[#4E342E] mb-4">
             The Origins of Chocolate
@@ -43,8 +43,11 @@ const Hero = () => {
             alt="Coco Grading Process"
             className="w-full h-auto object-cover rounded-lg shadow-lg"
           />
-        </Section>
-      </section>
+        </Section >
+    
+      </section  >
+    
+ 
 
       {/* Section 2: Modern Impact of Chocolate */}
       <section className="h-screen flex flex-col md:flex-row-reverse items-center justify-between px-6 md:px-20">
