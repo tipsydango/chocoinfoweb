@@ -1,9 +1,9 @@
 import React from "react";
-import "path-to-animista-css/animista.css"; // Include Animista CSS or replicate animations in your styles
 import cocoGradingProcess from "./assets/choco-grind.jpg";
 import meltingChocolateSwirl from "./assets/choco-swirl.webp";
 import chocolateSwanSculpture from "./assets/choco-swan.jpg";
 import contemporaryChocolateInnovations from "./assets/choco-ball.jpg";
+import "./assets/animista.css";
 
 const Hero = () => {
   return (
