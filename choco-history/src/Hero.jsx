@@ -9,7 +9,7 @@ import "./assets/animista.css";
 const Section = ({ children, animationClass }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.4, // Animation triggers when 20% of the section is visible
+    threshold: 0.9, // Animation triggers when 20% of the section is visible
   });
 
   return (
@@ -46,7 +46,7 @@ const Hero = () => {
             <img
               src={cocoGradingProcess}
               alt="Coco Grading Process"
-              className="w-full h-auto object-cover rounded-lg shadow-lg"
+              className="w-full h-auto object-cover rounded-lg shadow-lg fade-in-fwd"
             />
           </div>
         </Section>
