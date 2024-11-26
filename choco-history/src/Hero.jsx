@@ -33,8 +33,9 @@ const Hero = () => {
             The Origins of Chocolate
           </h2>
           <p className="text-lg text-[#4E342E]">
-            Discover how chocolate was first cultivated in ancient Mesoamerica,
-            where it was seen as a divine gift and treasured delicacy.
+          Discover how chocolate was first cultivated in ancient Mesoamerica, 
+          where it was seen as a divine gift and treasured delicacy. 
+          Learn about its journey from the cacao trees to the cultural centerpiece it has become today.
           </p>
         </div>
         <Section animationClass="fade-in-fwd">
@@ -56,8 +57,9 @@ const Hero = () => {
             Modern Impact of Chocolate
           </h2>
           <p className="text-lg text-[#4E342E]">
-            Chocolate today is a global phenomenon, influencing economies,
-            diets, and industries worldwide with its irresistible allure.
+          Chocolate has become more than a treat; it’s a global phenomenon shaping economies, 
+          inspiring culinary arts, and creating moments of joy worldwide. 
+          Dive into how chocolate has evolved into a multi-billion-dollar industry.
           </p>
         </div>
         <Section animationClass="swirl-in-bck">
@@ -76,8 +78,8 @@ const Hero = () => {
             Chocolate in Culture
           </h2>
           <p className="text-lg text-[#4E342E]">
-            From art to festivals, chocolate has left an indelible mark on
-            culture and continues to inspire creativity worldwide.
+          From sacred rituals to festive celebrations, chocolate has been a symbol of love, luxury, and
+           creativity across cultures. Explore its profound cultural significance and the traditions it has inspired.
           </p>
         </div>
         <Section animationClass="slit-in-diagonal-1">
@@ -96,8 +98,8 @@ const Hero = () => {
             Contemporary Chocolate Innovations
           </h2>
           <p className="text-lg text-[#4E342E]">
-            Explore cutting-edge chocolate creations, from sculptural designs to
-            sustainable and novel confections.
+          Modern-day chocolatiers are pushing boundaries with sustainable practices, innovative flavors, and stunning designs. 
+          Discover how chocolate continues to evolve and inspire in the contemporary world.
           </p>
         </div>
         <Section animationClass="tilt-in-fwd-br">
