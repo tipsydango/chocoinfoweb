@@ -7,8 +7,12 @@ import './assets/animista.css';
 export default function App() {
   return (
     <div>
-     
-      <TestAnimation/>
+     <Header/>
+     <Hero/>
+     <Timeline/>
+     <Facts/>
+     <TestAnimation/>
+      
     
      
      
