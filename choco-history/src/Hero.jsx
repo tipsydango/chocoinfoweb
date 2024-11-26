@@ -26,7 +26,7 @@ const Section = ({ children, animationClass }) => {
 
 const Hero = () => {
   return (
-    <div className="w-full bg-[#ffefdd] bg-[url('./assets/bubbles.svg')] bg-repeat">
+    <div className="w-full bg-[#e68c26d3] bg-[url('./assets/bubbles.svg')] bg-repeat">
       {/* Origins of Chocolate */}
       <section className="h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20">
         <Section animationClass="fade-in-fwd">
