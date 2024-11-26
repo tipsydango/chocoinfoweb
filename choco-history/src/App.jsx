@@ -2,13 +2,15 @@ import Timeline from "./timeline";
 import Header from "./Header";
 import Facts from "./Facts";
 import Hero from "./Hero";
+import TestAnimation from "./TestAnimation";
 export default function App() {
   return (
     <div>
-      <Header />
-      <Hero/>
-      <Timeline />
-      <Facts />
+     
+      <TestAnimation/>
+    
+     
+     
     </div>
   );
 }
