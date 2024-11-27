@@ -11,10 +11,6 @@ export default function App() {
      <Hero/>
      <Timeline/>
      <Facts/>
-     <TestAnimation/>
-      
-    
-     
      
     </div>
   );
