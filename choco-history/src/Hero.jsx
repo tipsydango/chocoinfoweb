@@ -30,7 +30,7 @@ const Hero = () => {
       {/* Section 1: Origins of Chocolate */}
       <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 pb-16 relative">
         <div className="w-full md:w-1/2 text-left">
-          <h2 className="text-6xl font-bold text-[#4E342E] mb-4">
+          <h2 className="text-6xl font-bold text-[#4E342E] mb-4 mt-2">
             The Origins of Chocolate
           </h2>
           <p className="text-3xl text-[#4E342E]">
