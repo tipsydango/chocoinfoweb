@@ -33,7 +33,7 @@ const Timeline = () => {
     <div
       className="relative w-full h-screen bg-cover bg-center -mt-20"
       style={{
-        backgroundImage: src = "timebg", // Placeholder for background image
+        backgroundImage: `url('timebg')`, // Placeholder for background image
         backgroundColor: "rgba(0,0,0,0.5)",
         backgroundBlendMode: "overlay",
       }}
