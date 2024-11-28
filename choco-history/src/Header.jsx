@@ -26,7 +26,7 @@ const Header = () => {
         <div className="relative z-10 flex justify-between items-center h-full px-5 md:px-10">
           {/* Title */}
           <h1
-            className="text-4xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white animate-flicker-in"
+              className="relative text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white animate-flicker-in pb-4 before:absolute before:content-[''] before:w-[50px] before:h-1 before:bg-gold before:left-0 before:bottom-0"
           >
             History of Chocolate
           </h1>
