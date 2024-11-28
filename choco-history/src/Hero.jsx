@@ -26,7 +26,7 @@ const Section = ({ children, animationClass }) => {
 
 const Hero = () => {
   return (
-    <div className="w-full bg-[#d38021] bg-[url('./assets/bubbles.svg')] bg-repeat">
+    <div className="w-full bg-[#d38021] bg-[url('./assets/bubbles.svg')] bg-repeat mb-0">
    {/* Section 1: The Origins of Chocolate */}
 <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 pb-16 relative">
   <div className="w-full md:w-1/2 text-left">
@@ -88,7 +88,7 @@ const Hero = () => {
 </section>
 
 {/* Section 4: Contemporary Chocolate Innovations */}
-<section className="min-h-screen flex flex-col md:flex-row-reverse items-center justify-between px-6 md:px-20 pb-16 relative">
+<section className="min-h-screen flex flex-col md:flex-row-reverse items-center justify-between px-6 md:px-20 pb-16 relative mb-0">
   <div className="w-full md:w-1/2 text-right">
     <h2 className="text-5xl md:text-6xl font-bold text-[#4E342E] mb-6">
       Contemporary Chocolate Innovations
@@ -110,7 +110,7 @@ const Hero = () => {
     />
   </Section>
 </section>
-    </div>
+    </div >
   );
 };
 

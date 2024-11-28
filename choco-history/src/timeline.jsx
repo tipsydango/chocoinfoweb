@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import timebg from "./assets/timebg.avif"
 
 const years = ["500 BC", "1000 AD", "1500 AD", "1800 AD", "2024"]; // Example years
 const content = [
@@ -30,9 +31,9 @@ const Timeline = () => {
 
   return (
     <div
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-screen bg-cover bg-center -mt-20"
       style={{
-        backgroundImage: `url('https://via.placeholder.com/1920x1080')`, // Placeholder for background image
+        backgroundImage: src = "timebg", // Placeholder for background image
         backgroundColor: "rgba(0,0,0,0.5)",
         backgroundBlendMode: "overlay",
       }}
