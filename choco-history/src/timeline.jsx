@@ -30,9 +30,9 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen bg-rose-950 -mt-20">
+    <div className="relative w-full h-screen bg-rose-950 -mt-20 border-t-yellow-400 border-t-4 border-b-yellow-400 border-b-4">
       <h2
-        className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white text-center mt-10 mb-5 relative"
+        className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white text-center mt-1 mb-5 relative"
       >
         Timeline of Chocolate
         {/* Gold Underline */}
