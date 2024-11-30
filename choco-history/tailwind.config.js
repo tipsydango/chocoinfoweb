@@ -21,6 +21,10 @@ export default {
           '100%': { opacity: 1 },
         },
       },
+      fontFamily: {
+        lato: ['Lato', 'sans-serif'], // Adding Lato font
+        sevillana: ['Sevillana', 'cursive'], // Adding Sevillana font
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")], // Add the plugin here

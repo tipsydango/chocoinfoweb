@@ -30,11 +30,14 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen bg-rose-950 -mt-20">
-      {/* Timeline Title */}
-      <h2 className="text-4xl font-bold text-white text-center mt-10 mb-5">
-        Timeline of Chocolate
-      </h2>
+    <div className="relative w-full h-screen  bg-rose-950 -mt-20">
+   <h2
+  className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white text-center mt-10 mb-5 relative"
+>
+  Timeline of Chocolate
+  {/* Gold Underline */}
+  <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-28 h-1.5 bg-gold"></div>
+</h2>
 
       {/* Timeline Bar */}
       <div className="absolute top-20 left-1/2 transform -translate-x-1/2 w-3/4 flex flex-col items-center">
@@ -81,7 +84,7 @@ const Timeline = () => {
               scrollSnapAlign: "start",
             }}
           >
-            <p className="text-2xl font-bold">{text}</p>
+            <p className="text-2xl font-bold font-sevillana">{text}</p>
           </div>
         ))}
       </div>
