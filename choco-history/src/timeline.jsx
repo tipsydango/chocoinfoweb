@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import timebg from "./assets/timebg.avif";
 
-const years = ["500 BC", "1000 AD", "1500 AD", "1800 AD", "2024"]; // Example years
+const years = ["500 BC", "1000 AD", "1500 AD", "1800 AD", "2024 AD"]; // Example years
 const content = [
   "Chocolate served as currency in ancient Mesoamerica, especially among the Mayans and Aztecs. Cacao beans were more valuable than gold, traded for goods like food and tools. Beyond its economic role, cacao was used to make a sacred beverage called xocolatl, mixed with chili and believed to possess divine qualities. This drink was reserved for royalty, warriors, and religious ceremonies, emphasizing its spiritual and cultural importance. The use of cacao demonstrates its significance in daily life and traditions, marking it as a symbol of wealth, power, and divine connection in ancient civilizations.",
   "Spanish explorers brought cacao to Europe in the early 16th century, introducing it as a bitter beverage. Initially consumed by the elite, it was sweetened with sugar and spices like cinnamon to suit European tastes. Chocolate houses emerged in cities like London and Paris, becoming social hubs for the wealthy. The adaptation of cacao into sweetened drinks transformed it into a luxurious commodity, shaping culinary traditions and fueling a growing fascination with this exotic product. This marked the start of Europe’s enduring love affair with chocolate.",
@@ -84,7 +84,7 @@ const Timeline = () => {
         scrollSnapAlign: "start",
       }}
     >
-      <p className="text-4xl font-semibold font-sevillana break-words leading-tight text-[rgb(203,175,62)]">
+     <p className="text-sm sm:text-4xl font-semibold break-words leading-tight text-[rgb(203,175,62)] font-lato sm:font-sevillana">
         {text}
       </p>
     </div>
