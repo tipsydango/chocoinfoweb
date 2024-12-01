@@ -48,7 +48,7 @@ const Header = () => {
               }`}
             >
               <a
-                href="#timeline"
+                href="#Timeline"
                 className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75"
               >
                 Timeline
@@ -74,7 +74,7 @@ const Header = () => {
         <img
           src={rib2}
           alt="Gold Ribbon Border"
-          className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 w-[70px] md:w-[100px] lg:w-[70px] object-contain "
+          className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 w-[70px] md:w-[100px] lg:w-[70px] object-contain"
         />
       </div>
     </header>
