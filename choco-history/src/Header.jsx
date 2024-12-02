@@ -11,6 +11,9 @@ const Header = () => {
 
   return (
     <header className="relative">
+      {/* Skip Link */}
+     
+
       {/* Header Background */}
       <div
         className="w-full h-[300px] md:h-[400px] lg:h-[500px] bg-cover bg-center"
@@ -36,6 +39,8 @@ const Header = () => {
             <button
               className="block md:hidden text-white text-3xl focus:outline-none"
               onClick={toggleMenu}
+              aria-expanded={isMenuOpen}
+              aria-label="Toggle Navigation Menu"
             >
               ☰
             </button>
@@ -45,10 +50,13 @@ const Header = () => {
               className={`absolute top-full right-0 bg-[#4E342E]/90 md:bg-transparent md:relative md:top-0 md:flex md:space-x-8 transition-all duration-300 ${
                 isMenuOpen ? "block" : "hidden"
               }`}
+              role="navigation"
+              aria-label="Main Navigation"
             >
               <a
                 href="#Timeline"
-                className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75"
+                className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                aria-label="Go to Timeline Section"
               >
                 Timeline
                 <span className="hidden md:block absolute left-0 bottom-0 w-0 h-1 bg-gold group-hover:w-full transition-all duration-300 ease-in-out"></span>
@@ -57,7 +65,8 @@ const Header = () => {
 
               <a
                 href="#Facts"
-                className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75"
+                className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                aria-label="Go to Fun Facts Section"
               >
                 Fun Facts
                 <span className="hidden md:block absolute left-0 bottom-0 w-0 h-1 bg-gold group-hover:w-full transition-all duration-300 ease-in-out"></span>
