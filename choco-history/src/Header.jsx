@@ -1,20 +1,19 @@
 import React, { useState } from "react";
 import darkChocoHead from "./assets/dark-choco-head.jpeg";
-import rib2 from "./assets/rib-2.png"
-
+import rib2 from "./assets/rib-2.png";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="relative ">
+    <header className="relative">
       {/* Header Background */}
       <div
-        className="w-full h-[300px] md:h-[400px] lg:h-[500px] bg-cover bg-center "
+        className="w-full h-[300px] md:h-[400px] lg:h-[500px] bg-cover bg-center"
         style={{
           backgroundImage: `url(${darkChocoHead})`,
         }}
@@ -26,7 +25,7 @@ const Header = () => {
         <div className="relative z-10 flex justify-between items-center h-full px-5 md:px-10">
           {/* Title */}
           <h1
-              className="relative text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white animate-flicker-in pb-4 before:absolute before:content-[''] before:w-[50px] before:h-1 before:bg-gold before:left-0 before:bottom-0"
+            className="relative text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brown to-white animate-flicker-in pb-4 before:absolute before:content-[''] before:w-[50px] before:h-1 before:bg-gold before:left-0 before:bottom-0"
           >
             History of Chocolate
           </h1>
@@ -57,7 +56,7 @@ const Header = () => {
               <hr className="border-t border-gold opacity-50 md:hidden" />
 
               <a
-                href="#facts"
+                href="#Facts"
                 className="block md:inline-block text-white text-sm md:text-lg font-medium relative group px-4 py-2 hover:bg-gold hover:bg-opacity-75"
               >
                 Fun Facts
